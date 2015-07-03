@@ -29,9 +29,9 @@ include (../../features/lookups.fea);
 # Reph Forms
 # ----------
 
-feature rphf {
-  lookup rphf;
-} rphf;
+# feature rphf {
+#   lookup rphf;
+# } rphf;
 
 
 # Pre-base Forms
@@ -164,12 +164,12 @@ feature haln {
 # Above- and Below-base Mark Positioning
 # --------------------------------------
 
-include (markclasses.fea);
-
-# feature abvm {
-#   include (abvm.fea);
-# } abvm;
-
-feature blwm {
-  include (blwm.fea);
-} blwm;
+# include (markclasses.fea);
+#
+# # feature abvm {
+# #   include (abvm.fea);
+# # } abvm;
+#
+# feature blwm {
+#   include (blwm.fea);
+# } blwm;
