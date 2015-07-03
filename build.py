@@ -14,8 +14,8 @@ family = kit.Family(
 family.set_masters(
     modules = [
         # 'kerning',
-        'mark_positioning',
-        'mark_to_mark_positioning',
+        # 'mark_positioning',
+        # 'mark_to_mark_positioning',
     ],
 )
 
@@ -25,7 +25,7 @@ family.set_styles()
 
 builder = kit.Builder(family)
 
-builder.fontrevision = '0.100'
+builder.fontrevision = '0.500'
 
 builder.set_options([
 
