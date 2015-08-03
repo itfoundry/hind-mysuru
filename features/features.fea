@@ -2,7 +2,7 @@ languagesystem DFLT dflt;
 languagesystem knd2 dflt;
 languagesystem knda dflt;
 
-include (../../features/GENERATED_classes.fea);
+# include (../../features/GENERATED_classes.fea);
 include (../../features/tables.fea);
 include (../../features/lookups.fea);
 
