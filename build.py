@@ -1,13 +1,13 @@
 #! /usr/bin/env python
 
 import hindkit as kit
-kit.confirm_version('0.1.2')
+kit.confirm_version('0.1.3')
 
 # - - -
 
 family = kit.Family(
     trademark = 'Hind Mysuru',
-    script    = 'Kannada',
+    script = 'Kannada',
     hide_script_name = True,
 )
 
@@ -26,7 +26,7 @@ family.set_styles()
 
 builder = kit.Builder(family)
 
-builder.fontrevision = '0.600'
+builder.fontrevision = '0.610'
 
 builder.set_options([
 
