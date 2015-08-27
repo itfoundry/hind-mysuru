@@ -3,6 +3,7 @@ languagesystem knd2 dflt;
 languagesystem knda dflt;
 
 # include (../../features/GENERATED_classes.fea);
+include (../../features/extension.fea);
 include (../../features/tables.fea);
 include (../../features/lookups.fea);
 
@@ -29,9 +30,9 @@ include (../../features/lookups.fea);
 # Reph Forms
 # ----------
 
-# feature rphf {
-#   lookup rphf;
-# } rphf;
+feature rphf {
+  lookup rphf;
+} rphf;
 
 
 # Pre-base Forms

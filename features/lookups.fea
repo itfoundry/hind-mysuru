@@ -10,9 +10,9 @@
 # Reph Forms
 # ----------
 
-# lookup rphf {
-#   sub knRA knVirama by knReph;
-# } rphf;
+lookup rphf {
+  sub knRA knVirama by knReph;
+} rphf;
 
 
 # Below-base Forms
@@ -116,12 +116,12 @@ lookup pres_matra {
   sub knKHA knmI by knKHI;
   sub knGA knmI by knGI;
   sub knGHA knmI by knGHI;
-  # sub knNGA knmI by knNGI;
+  sub knNGA knmI by knNGI;
   sub knCA knmI by knCI;
   sub knCHA knmI by knCHI;
   sub knJA knmI by knJI;
   sub knJHA knmI by knJHI;
-  # sub knNYA knmI by knNYI;
+  sub knNYA knmI by knNYI;
   sub knTTA knmI by knTTI;
   sub knTTHA knmI by knTTHI;
   sub knDDA knmI by knDDI;
@@ -300,7 +300,7 @@ lookup pres_matra {
 
   sub knRRA knmU by knRRU;
   sub knLLA knmU by knLLU;
-  # sub knLLLA knmU by knLLLU;
+  sub knLLLA knmU by knLLLU;
 
   sub knKA knmUU by knKUU;
   sub knKHA knmUU by knKHUU;
@@ -338,7 +338,7 @@ lookup pres_matra {
 
   sub knRRA knmUU by knRRUU;
   sub knLLA knmUU by knLLUU;
-  # sub knLLLA knmUU by knLLLUU;
+  sub knLLLA knmUU by knLLLUU;
 
   sub knKA knmO by knKO;
   sub knKHA knmO by knKHO;
@@ -376,7 +376,7 @@ lookup pres_matra {
 
   sub knRRA knmO by knRRO;
   sub knLLA knmO by knLLO;
-  # sub knLLLA knmO by knLLLO;
+  sub knLLLA knmO by knLLLO;
 
 } pres_matra;
 
