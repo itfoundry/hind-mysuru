@@ -48,13 +48,13 @@ feature rphf {
 feature blwf {
 
   script DFLT;
-    lookup blwf_knd2;
+    lookup blwf_new;
 
   script knd2;
-    lookup blwf_knd2;
+    lookup blwf_new;
 
   script knda;
-    lookup blwf_knda;
+    lookup blwf_old;
 
 } blwf;
 
@@ -88,9 +88,10 @@ feature blwf {
 # ---------------------
 
 feature pres {
-  lookup pres_o;
   lookup pres_matra;
-  # lookup pres_else;
+  lookup pres_kssa;
+  lookup pres_c2_following;
+  lookup pres_c2_ligating;
 } pres;
 
 
@@ -119,7 +120,6 @@ feature pres {
 # ------------
 
 feature haln {
-  # lookup haln_old;
   lookup haln;
 } haln;
 
@@ -165,12 +165,12 @@ feature haln {
 # Above- and Below-base Mark Positioning
 # --------------------------------------
 
-# include (markclasses.fea);
-#
-# # feature abvm {
-# #   include (abvm.fea);
-# # } abvm;
-#
-# feature blwm {
-#   include (blwm.fea);
-# } blwm;
+include (markclasses.fea);
+
+# feature abvm {
+#   include (abvm.fea);
+# } abvm;
+
+feature blwm {
+  include (blwm.fea);
+} blwm;
