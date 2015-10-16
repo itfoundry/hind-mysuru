@@ -1,7 +1,7 @@
 {
 DisplayStrings = (
 /knPHUU,
-/knPHA/knPA/knPHUU/knPUU
+/knHU/knHUU
 );
 copyright = "~";
 customParameters = (
@@ -36530,18 +36530,16 @@ width = 1081;
 );
 },
 {
-color = 0;
 glyphname = knHU;
-lastChange = "2015-09-28 18:02:43 +0000";
+lastChange = "2015-10-16 13:31:43 +0000";
 layers = (
 {
+background = {
 components = (
 {
 name = knNA;
 }
 );
-layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
-name = Light;
 paths = (
 {
 closed = 1;
@@ -36569,16 +36567,27 @@ nodes = (
 );
 }
 );
-width = 1039;
+};
+components = (
+{
+name = knHA;
 },
 {
+name = knmU;
+transform = "{1, 0, 0, 1, 698, 0}";
+}
+);
+layerId = "034236B8-3FA8-43DA-9EDA-EFF269A687EC";
+name = Light;
+width = 1054;
+},
+{
+background = {
 components = (
 {
 name = knNA;
 }
 );
-layerId = "3C7150A3-BA8B-4B0D-8C42-931A1F33E06E";
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -36606,9 +36615,23 @@ nodes = (
 );
 }
 );
-width = 1162;
+};
+components = (
+{
+name = knHA;
+},
+{
+name = knmU;
+transform = "{1, 0, 0, 1, 763, 0}";
 }
 );
+layerId = "3C7150A3-BA8B-4B0D-8C42-931A1F33E06E";
+name = Bold;
+width = 1145;
+}
+);
+leftMetricsKey = knHA;
+rightMetricsKey = knmU;
 },
 {
 glyphname = knRRU;
